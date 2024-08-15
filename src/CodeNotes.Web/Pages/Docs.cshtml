@@ -1,0 +1,8 @@
+@page "/docs/{*filepath}"
+@model DocsModel
+@{
+    ViewData["Title"] = $"{Model.Title} - Code Notes";
+    ViewData["Description"] = Model.Description;
+}
+
+@Html.Raw(Model.HtmlContent)
