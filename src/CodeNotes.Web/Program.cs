@@ -3,7 +3,6 @@ using CodeNotes.Web.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
-
 builder.Services.AddScoped<MarkdownFileReaderService>();
 builder.Services.AddScoped<NavigationService>();
 

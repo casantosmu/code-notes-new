@@ -30,9 +30,7 @@ public class MarkdownFileReaderService(IMemoryCache memoryCache)
 
         var fileContent = new MarkdownFileContent(title, description, htmlContent);
 
-        var cacheEntryOptions = new MemoryCacheEntryOptions()
-            .SetPriority(CacheItemPriority.NeverRemove);
-
+        var cacheEntryOptions = new MemoryCacheEntryOptions().SetPriority(CacheItemPriority.NeverRemove);
         memoryCache.Set(filepath, fileContent, cacheEntryOptions);
 
         return fileContent;

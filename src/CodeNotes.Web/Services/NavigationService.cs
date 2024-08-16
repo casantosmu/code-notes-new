@@ -12,9 +12,6 @@ public class NavigationService(IMemoryCache memoryCache)
 
     private static readonly JsonSerializerOptions JsonSerializerOptions = new() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
 
-    private static readonly MemoryCacheEntryOptions MemoryCacheEntryOptions = new MemoryCacheEntryOptions()
-        .SetPriority(CacheItemPriority.NeverRemove);
-
     public List<NavItem> GetNavigation()
     {
         var cachedContent = memoryCache.Get<List<NavItem>>(CacheKey);
@@ -34,7 +31,8 @@ public class NavigationService(IMemoryCache memoryCache)
         var navigation = JsonSerializer.Deserialize<List<NavItem>>(json, JsonSerializerOptions) ??
             throw new InvalidOperationException("Failed to deserialize navigation data.");
 
-        memoryCache.Set(CacheKey, navigation, MemoryCacheEntryOptions);
+        var cacheEntryOptions = new MemoryCacheEntryOptions().SetPriority(CacheItemPriority.NeverRemove);
+        memoryCache.Set(CacheKey, navigation, cacheEntryOptions);
 
         return navigation;
     }
