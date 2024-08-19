@@ -354,9 +354,19 @@ pre {
 
 .sidebar header {
   display: flex;
-  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
   margin-top: calc(var(--spacing) * 2);
   margin-bottom: calc(var(--spacing) * 2);
+}
+
+.sidebar header a,
+.sidebar header a:active,
+.sidebar header a:focus,
+.sidebar header a:hover  {
+  color: var(--color);
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 @media (min-width: 1024px) {
