@@ -55,6 +55,10 @@
     "name": "Ubuntu Server",
     "links": [
       {
+        "name": "CLI Commands",
+        "href": "/docs/ubuntu-server/cli-commands"
+      },
+      {
         "name": "Setting Up",
         "href": "/docs/ubuntu-server/setting-up"
       },
