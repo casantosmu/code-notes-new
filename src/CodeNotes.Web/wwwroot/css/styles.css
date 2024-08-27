@@ -30,8 +30,8 @@
   --primary-focus: rgba(2, 154, 232, 0.5);
   --contrast: #dfe3eb;
   --secondary: #969eaf;
-  --success-color: #62af9a;
-  --danger-color: #ce7e7b;
+  --success: #62af9a;
+  --danger: #ce7e7b;
   --code-background-color: #1a1f28;
   --code-color: #ccc;
   --table-border-color: #202632;
@@ -339,6 +339,7 @@ pre {
  */
 .layout-wrapper {
   display: flex;
+  align-items: flex-start;
   gap: var(--spacing);
 }
 
@@ -357,12 +358,27 @@ pre {
   overflow-y: auto;
 }
 
+@media (min-width: 1024px) {
+  .sidebar {
+    display: block;
+    position: sticky;
+    top: 80px;
+    width: 25%;
+  }
+}
+
 .sidebar header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: calc(var(--spacing) * 1.5);
   margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+@media (min-width: 1024px) {
+  .sidebar header {
+    display: none;
+  }
 }
 
 .sidebar header a,
@@ -372,20 +388,6 @@ pre {
   color: var(--color);
   text-decoration: none;
   font-weight: bolder;
-}
-
-@media (min-width: 1024px) {
-  .sidebar {
-    width: 25%;
-    display: block;
-    position: static;
-    z-index: auto;
-    background-color: initial;
-  }
-
-  .sidebar header {
-    display: none;
-  }
 }
 
 .sidebar ul {
