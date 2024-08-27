@@ -38,6 +38,7 @@
   /**
      * Z index
      */
+  --header-z-index: 9;
   --sidebar-z-index: 10;
 }
 
@@ -299,11 +300,15 @@ pre {
  * Header
  */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: var(--header-z-index);
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: calc(var(--spacing) * 2);
-  margin-bottom: calc(var(--spacing) * 2);
+  padding-top: calc(var(--spacing) * 1.5);
+  padding-bottom: calc(var(--spacing) * 1.5);
 }
 
 .header a,
@@ -356,8 +361,8 @@ pre {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: calc(var(--spacing) * 2);
-  margin-bottom: calc(var(--spacing) * 2);
+  margin-top: calc(var(--spacing) * 1.5);
+  margin-bottom: calc(var(--spacing) * 1.5);
 }
 
 .sidebar header a,
