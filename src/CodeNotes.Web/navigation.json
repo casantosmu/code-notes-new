@@ -4,15 +4,15 @@
     "links": [
       {
         "name": "CLI Commands",
-        "href": "/docs/dotnet/cli-commands"
+        "href": "/dotnet/cli-commands"
       },
       {
         "name": "DataAnnotations Attributes",
-        "href": "/docs/dotnet/dataannotations-attributes"
+        "href": "/dotnet/dataannotations-attributes"
       },
       {
         "name": "Manipulating Files",
-        "href": "/docs/dotnet/manipulating-files"
+        "href": "/dotnet/manipulating-files"
       }
     ]
   },
@@ -21,11 +21,11 @@
     "links": [
       {
         "name": "State Machines: Example",
-        "href": "/docs/patterns/finite-state-machines"
+        "href": "/patterns/finite-state-machines"
       },
       {
         "name": "The Observer Pattern: Example",
-        "href": "/docs/patterns/observer-pattern"
+        "href": "/patterns/observer-pattern"
       }
     ]
   },
@@ -34,11 +34,11 @@
     "links": [
       {
         "name": "Standard Data Types",
-        "href": "/docs/sql/standard-data-types"
+        "href": "/sql/standard-data-types"
       },
       {
         "name": "Standard Functions",
-        "href": "/docs/sql/standard-functions"
+        "href": "/sql/standard-functions"
       }
     ]
   },
@@ -47,7 +47,7 @@
     "links": [
       {
         "name": "Setting Up",
-        "href": "/docs/postgresql/setting-up"
+        "href": "/postgresql/setting-up"
       }
     ]
   },
@@ -56,24 +56,24 @@
     "links": [
       {
         "name": "CLI Commands",
-        "href": "/docs/ubuntu-server/cli-commands"
+        "href": "/ubuntu-server/cli-commands"
       },
       {
         "name": "Setting Up",
-        "href": "/docs/ubuntu-server/setting-up"
+        "href": "/ubuntu-server/setting-up"
       },
       {
         "name": "Cloudflare and Nginx",
-        "href": "/docs/ubuntu-server/cloudflare-nginx"
+        "href": "/ubuntu-server/cloudflare-nginx"
       },
       {
         "name": "Remove Packages",
-        "href": "/docs/ubuntu-server/remove-packages"
+        "href": "/ubuntu-server/remove-packages"
       }
     ]
   },
   {
     "name": "Resources",
-    "href": "/docs/resources"
+    "href": "/resources"
   }
 ]
