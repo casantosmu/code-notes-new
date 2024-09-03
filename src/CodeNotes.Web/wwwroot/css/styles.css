@@ -421,6 +421,30 @@ pre {
   }
 }
 
+.markdown-alert {
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--primary);
+  padding: var(--spacing);
+  margin: var(--spacing) 0;
+}
+
+.markdown-alert-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: calc(var(--spacing) / 2) ;
+}
+
+.markdown-alert-title svg {
+  margin-right: calc(var(--spacing) / 2);
+  fill: var(--primary);
+}
+
+.markdown-alert :last-child,
+.markdown-alert pre:last-of-type {
+  margin-bottom: 0;
+}
+
 /**
  * JavaScript Helpers
  */
