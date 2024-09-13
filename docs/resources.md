@@ -1,5 +1,5 @@
 ---
-description: "DevOps and development resources: React, Node.js, Go, testing, Docker, SQL, NoSQL, AWS, DevOps, security, NGINX, Git, shell scripting, HTML, CSS."
+description: "DevOps and development resources: React, Node.js, Go, testing, Docker, SQL, NoSQL, AWS, DevOps, security, NGINX, Git, shell scripting, HTML, CSS, TypeScript."
 ---
 
 # Resources
@@ -21,6 +21,12 @@ description: "DevOps and development resources: React, Node.js, Go, testing, Doc
 - **[Node.js CLI Apps Best Practices](https://github.com/lirantal/nodejs-cli-apps-best-practices)**
 - **[Scaling Node.js applications](https://punits.dev/jargon-free-intros/scaling-nodejs-applications)**
 - **[Node.js Design Patterns](https://www.nodejsdesignpatterns.com)** (Book)
+
+## TypeScript
+
+- **[TypeScript Config (tsconfig) Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)**
+- **[TypeScript Base TSConfig Presets](https://github.com/tsconfig/bases)**
+- **[TypeScript Style Guide](https://mkosir.github.io/typescript-style-guide/)**
 
 ## Go
 

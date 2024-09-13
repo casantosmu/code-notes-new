@@ -421,6 +421,9 @@ pre {
   }
 }
 
+/**
+ * Markdown alert
+ */
 .markdown-alert {
   border-radius: var(--border-radius);
   border: var(--border-width) solid var(--primary);
