@@ -69,9 +69,14 @@ description: "DevOps and development resources: React, Node.js, Go, testing, Doc
 
 - **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)**
 - **[CS 253 Web Security](https://www.youtube.com/playlist?list=PL1y1iaEtjSYiiSGVlL1cHsXN_kvJOOhu-)**
+- **[Understanding CSRF](https://github.com/pillarjs/understanding-csrf)**
 - **[JWT should not be your default for sessions](https://evertpot.com/jwt-is-a-bad-default)**
 - **[JWT are Dangerous for User Sessions](https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions)**
-- **[Understanding CSRF](https://github.com/pillarjs/understanding-csrf)**
+- **[Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions)**
+- **[JSON Web Tokens Suck](https://www.youtube.com/watch?v=pYeekwv3vC4)** (VIDEO)
+- **[Please Stop Using Local Storage](https://www.rdegges.com/2018/please-stop-using-local-storage)**
+- **[JWT attacks](https://portswigger.net/web-security/jwt)**
+- **[JWT Security Best Practices](https://curity.io/resources/learn/jwt-best-practices)**
 
 ## NGINX
 
